@@ -1,0 +1,44 @@
+[
+  { "name": "Home", "href": "/home", "icon": "pie-chart" },
+  {
+    "name": "功能",
+    "permission": "OrgManager",
+    "icon": "02-数据概览",
+    "children": [
+      { "name": "About", "href": "/about", "icon": "pie-chart" },
+      { "name": "登录页", "href": "/account/login", "icon": "pie-chart" }
+    ]
+  },
+  {
+    "name": "Demo",
+    "permission": "develop",
+    "icon": "setting",
+    "children": [
+      { "name": "DemoCard", "permission": "disable", "href": "/demo/demo-card", "icon": "setting" },
+      { "name": "DemoColor", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "分页列表Demo", "permission": "disable", "href": "/demo/demo-list-page", "icon": "setting" },
+      { "name": "DemoTable", "permission": "disable", "href": "/demo/demo-table", "icon": "setting" },
+      { "name": "Demo", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo-7", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo-6", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo-5", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo-4", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo-3", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo-2", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" },
+      { "name": "Demo-1", "permission": "disable", "href": "/demo/demo-color", "icon": "setting" }
+    ]
+  }
+]
