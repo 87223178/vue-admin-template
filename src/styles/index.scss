@@ -1,0 +1,12 @@
+@use './color.scss' as *;
+@use './styles.scss' as *;
+@use './f-class.scss' as *;
+
+:root {
+  --el-menu-border-color: var(--custom-bg-dark);
+  --el-menu-bg-color: var(--custom-bg-dark);
+  --el-menu-text-color: var(--el-color-white);
+}
+.el-card {
+  --el-card-padding: 8px;
+}
