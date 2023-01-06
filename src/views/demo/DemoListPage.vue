@@ -1,7 +1,7 @@
 <template>
-  <el-card class="f-full-card">
+  <el-card class="vt-full-card">
     <template #header>
-      <div class="f-card-header">
+      <div class="vt-card-header">
         <div>
           <span>分页列表Demo</span>
         </div>

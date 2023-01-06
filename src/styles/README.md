@@ -15,6 +15,6 @@
 
 - 全局定义 或 覆盖
 
-### f-class.scss 主要的 全局 class 样式
+### vt-class.scss 主要的 全局 class 样式
 
-- 以 f- 开头的 class 样式
+- 以 vt- 开头的 class 样式

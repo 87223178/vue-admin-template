@@ -1,14 +1,14 @@
 <template>
   <div>
-    <div class="f-layout-sider-placeholder" :class="{ collapsed: isCollapse }"></div>
-    <div class="f-layout-sider">
+    <div class="vt-layout-sider-placeholder" :class="{ collapsed: isCollapse }"></div>
+    <div class="vt-layout-sider">
       <div class="sider-logo">
         <div>
           <a>
             <img alt="Vue logo" src="../assets/logo.png" />
           </a>
         </div>
-        <div class="f-trigger">
+        <div class="vt-trigger">
           <el-button link type="primary" @click="isCollapse = !isCollapse">
             <el-icon size="24" v-if="isCollapse"><Expand /></el-icon>
             <el-icon size="24" v-if="!isCollapse"><Fold /></el-icon>
@@ -16,8 +16,8 @@
         </div>
       </div>
 
-      <div class="f-layout-sider-content">
-        <el-menu class="f-menu-vertical" :collapse="isCollapse" default-active="0" :router="true">
+      <div class="vt-layout-sider-content">
+        <el-menu class="vt-menu-vertical" :collapse="isCollapse" default-active="0" :router="true">
           <template v-for="(item, index) in menu" :key="index">
             <template v-if="item.children && item.children.length > 0">
               <el-sub-menu v-bind="{ index: index.toString() }">
@@ -63,7 +63,7 @@ export default class Siderbar extends Vue {
 </script>
 
 <style lang="scss" scoped>
-.f-layout-sider-placeholder {
+.vt-layout-sider-placeholder {
   width: 245px;
 
   &.collapsed {
@@ -71,7 +71,7 @@ export default class Siderbar extends Vue {
   }
 }
 
-.f-layout-sider {
+.vt-layout-sider {
   background: var(--custom-bg-dark);
   position: fixed;
   height: 100vh;
@@ -92,36 +92,36 @@ export default class Siderbar extends Vue {
       margin: auto;
       height: 40px;
     }
-    .f-trigger {
+    .vt-trigger {
       text-align: right;
       padding-right: 16px;
       margin-bottom: 16px;
     }
   }
 
-  .f-layout-sider-content {
+  .vt-layout-sider-content {
     padding: 108px 0 24px;
     overflow-y: scroll;
     height: 100vh;
   }
-  .f-layout-sider-content::-webkit-scrollbar {
+  .vt-layout-sider-content::-webkit-scrollbar {
     /*滚动条整体样式*/
     width: 4px;
     height: 1px;
   }
-  .f-layout-sider-content::-webkit-scrollbar-thumb {
+  .vt-layout-sider-content::-webkit-scrollbar-thumb {
     /*滚动条里面小方块*/
     border-radius: 2px;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
     background-color: var(--el-color-primary);
   }
-  .f-layout-sider-content::-webkit-scrollbar-track {
+  .vt-layout-sider-content::-webkit-scrollbar-track {
     /*滚动条里面轨道*/
     border-radius: 2px;
     background-color: white;
   }
 
-  .f-menu-vertical:not(.el-menu--collapse) {
+  .vt-menu-vertical:not(.el-menu--collapse) {
     width: 240px;
   }
 }

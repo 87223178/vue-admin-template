@@ -1,14 +1,14 @@
 <template>
   <router-view v-if="fullScreenMode" />
-  <div class="f-layout" v-else>
+  <div class="vt-layout" v-else>
     <Siderbar />
 
-    <div class="f-layout-body">
-      <div class="f-header">
+    <div class="vt-layout-body">
+      <div class="vt-header">
         <app-header />
       </div>
 
-      <div class="f-layout-content">
+      <div class="vt-layout-content">
         <router-view />
       </div>
 
@@ -47,15 +47,15 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-.f-layout {
+.vt-layout {
   display: flex;
 
-  .f-layout-body {
+  .vt-layout-body {
     flex: 1;
     height: 100vh;
     overflow-y: hidden;
   }
-  .f-header {
+  .vt-header {
     box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.1);
     position: sticky;
     z-index: 99;
@@ -63,7 +63,7 @@ export default defineComponent({
     line-height: 40px;
     height: 40px;
   }
-  .f-layout-content {
+  .vt-layout-content {
     height: calc(100vh - 72px);
     overflow-x: hidden;
     overflow-y: scroll;

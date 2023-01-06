@@ -1,5 +1,5 @@
 <template>
-  <div class="f-layout-footer">信息科技有限公司 | ©Copyright©2019-2021 版权所有</div>
+  <div class="vt-layout-footer">信息科技有限公司 | ©Copyright©2019-2021 版权所有</div>
 </template>
 
 <script lang="ts">
@@ -10,7 +10,7 @@ export default class Footer extends Vue {}
 </script>
 
 <style lang="scss" scoped>
-.f-layout-footer {
+.vt-layout-footer {
   box-shadow: 0 -1px 15px 1px rgba(0, 0, 0, 0.1);
   position: sticky;
   background-color: white;

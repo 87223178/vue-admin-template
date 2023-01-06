@@ -1,7 +1,7 @@
 <template>
-  <el-card class="f-full-card">
+  <el-card class="vt-full-card">
     <template #header>
-      <div class="f-card-header">
+      <div class="vt-card-header">
         <div>
           <span>颜色 DemoColor</span>
           <span class="describe">并没有全部列出，仅展示颜色递进示例。</span>

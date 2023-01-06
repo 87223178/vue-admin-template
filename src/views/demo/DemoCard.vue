@@ -1,7 +1,7 @@
 <template>
-  <el-card class="f-full-card">
+  <el-card class="vt-full-card">
     <template #header>
-      <div class="f-card-header">
+      <div class="vt-card-header">
         <div>
           <span>DemoCard</span>
           <span class="describe">Card 的一些排版示例</span>
@@ -10,18 +10,18 @@
     </template>
 
     <div>
-      <h2>.f-full-card 样式</h2>
+      <h2>1、.vt-full-card 样式</h2>
       <p>
         用来 固定 card 的 header
-        <el-tag type="success" effect="dark"> {{'<el-card class="f-full-card"></el-card>'}} </el-tag>
+        <el-tag type="success" effect="dark"> {{'<el-card class="vt-full-card"></el-card>'}} </el-tag>
       </p>
 
-      <h2>.f-card-header 样式</h2>
+      <h2>2、.vt-card-header 样式</h2>
       <p>flex 布局的 card - header</p>
 
       <el-card>
         <template #header>
-          <div class="f-card-header">
+          <div class="vt-card-header">
             <div>
               <span>这是标题</span>
               <span class="describe">这是副标题</span>
@@ -37,7 +37,7 @@
 
       <el-card>
         <template #header>
-          <div class="f-card-header">
+          <div class="vt-card-header">
             <div>
               <span>这是标题</span>
               <span class="describe">这是副标题</span>
